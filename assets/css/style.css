@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+header{
+    display: flex;
+    justify-content: center;
+    height: 106px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu-mobile-header{
+    display: flex;
+}
+.menu-mobile{
+    width: 40px;
+    height: 40px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.mm-bar{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(18, 123, 196);
+}
+
+nav ul{
+    display: flex;
+}
+nav a{
+    padding: 15px;
+    color: rgb(93, 93, 93);
+    text-transform: uppercase;
+}
+.activo,nav a:hover{
+    color: white;
+    background-color: rgb(64, 175, 223);
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image:url('../images/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+.direction{
+    flex-direction: column;
+}
+.banner-headline{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-headline h1, h2{
+    color: white;
+    text-shadow: 1px 1px #555;
+    max-width: 470px;
+    
+}
+.banner-headline h1{
+    font-size: 60px;
+    
+}
+.banner-headline h2{
+    margin-top: 30px;
+    font-size: 19px;
+}
+.banner-options{
+    flex:1;
+    display: flex;
+}
+.banner-opc-1, .banner-opc-2, .banner-opc-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    padding: 20px;
+    color: white;   
+}
+.banner-options h3{
+    font-size: 20px;   
+    font-family: 'Raleway', sans-serif;
+}
+.banner-options p, .banner-opc-3 .hours h6{
+    font-size: 13px; 
+    font-family: 'Raleway', sans-serif;
+}
+.banner-opc-3 .hours{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #6b6b6baa;
+    padding: 10px;
+}
+.banner-opc-1{
+    background-color: rgb(64, 175, 223);
+}
+.banner-opc-2{
+    flex: 1;
+    background-color: rgb(18, 123, 196);
+}
+.banner-opc-3{
+    flex: 1;
+    background-color: rgb(45, 78, 151);
+}
+.button-more{
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: none;
+    color: white;
+    font-size: 13px;
+    font-weight: lighter;
+    width: 98px;
+    cursor: pointer;
+}
+.button-more:hover{
+    background-color: rgb(45, 78, 151);
+}
+
+#latestnews_departaments{
+    display: flex;
+    justify-content: center;
+}
+.latestnews{
+    flex: 2;
+}
+.desc-tittle{
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.desc-bar{
+    background-color: rgb(64, 175, 223);
+    height: 2.2px;
+    width: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container-news{
+    display: flex;
+    flex-wrap: wrap;
+}
+.area-news{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   
+}
+.container-news a{
+    margin-bottom: 30px;
+    margin-right: 30px; 
+}
+.date-news {
+    display: flex;
+}
+.month-news{
+    background-color: rgb(45, 78, 151);
+    padding: 10px;
+    color: white;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-right: 2px;
+}
+.month-news::after{
+    content: '';
+    display: block;
+    position: absolute;
+    margin-left: -10.1px;
+    margin-top: 10px;
+    border: 6px solid;
+    border-color: rgb(45, 78, 151) transparent transparent transparent;
+}
+
+
+.day-news{
+    background-color: rgb(64, 175, 223);
+    padding: 10px;
+    color: white;
+    font-weight: lighter;
+    font-size: 13px;
+}
+.image-news img, .news{
+    max-width: 300px;
+}
+.desc-image{
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.news{
+    margin-bottom: 20px;
+    color: rgb(142, 142, 142);
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+}
+
+.departaments{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.container-departaments{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.select-departaments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(64, 175, 223);
+}
+.select-departaments:hover{
+    background-color: rgb(45, 78, 151);
+}
+.desc-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+.contacts{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.contacts h3{
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;    
+}
+.contacts a{
+    font-size: 15px;
+    color: rgb(93, 93, 93);
+    font-family: 'Raleway', sans-serif;
+    margin-left: 15px;
+}
+.contacts a:hover{
+    color: rgb(45, 78, 151);
+}
+#email::before,
+#tel::before,
+#site::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background-size: 20px;
+    margin-left: -22px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -10px;
+}
+#email::before{
+    background-image: url(../images/email-edit-outline.svg);
+}
+#tel::before{
+    background-image: url(../images/phone-dial-outline.svg);
+}
+#site::before{
+    background-image: url(../images/site.png);
+}
+#email, #tel, #site{
+    margin-left: 20px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    background-color: rgb(48, 46, 51);
+    flex-direction: column;
+}
+.banner-footer{
+    height: 100px;
+}
+.banner-footer h3{
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+}
+.banner-footer a{
+    font-size: 27px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-opc{
+    gap: 10px;
+}
+.footer-main{
+    display: flex;
+    flex-direction: column;
+}
+.footer-desc{
+    display: flex;
+}
+.footer-desc a::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgb(64, 175, 223);
+    background-size: 14px;
+    margin-top: -12px;
+}
+
+.footer-desc a{
+    margin-left: 10px;
+}
+.footer-desc-info{  
+    flex: 1   
+}
+.footer-desc-info .desc-tittle{
+    color: rgb(225, 225, 225);
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.info p, .info-local p, 
+.info-contacts p, 
+.info-email a,
+.footer-links a,
+.footer-latestnews a,
+.desc-tweets p,
+.footer-privacy-links a{
+    flex-wrap: wrap;
+    width: 200px;
+    color: rgb(142, 142, 142);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+.footer-direitos p{
+    color: rgb(142, 142, 142);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+ 
+.info-email a:hover,
+.footer-links a:hover,
+.footer-latestnews a:hover,
+.footer-privacy-links a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer-privacy{
+    background-color: rgb(21, 21, 21);
+    height: 70px;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.footer-direitos{
+    color: rgb(225, 225, 225);
+    font-family: 'Raleway';
+    font-size: 13px;  
+}
+.footer-privacy-links a{
+    margin-right: 10px;
+}
+/*Responssiv*/
+
+
+@media(max-width: 414px){
+    .logo{
+       margin-left: 20px;
+    }
+    header{
+        height: auto;
+    }
+    header .container{
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .menu nav ul{
+        display: none; 
+    }
+    .menu nav li{
+        display: flex; 
+    }
+    .menu-mobile-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-mobile{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        margin-right: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    nav li a{
+        padding: 15px;
+        width: 100vw;
+    }
+    .banner-headline h1{
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .banner-headline h2{
+        font-size: 19px;
+        text-align: center;
+        padding: 30px;
+    }
+    .banner-options{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .button-more{
+        width: 85vw;
+        font-size: 20px;
+    }
+    .banner-opc-1,
+    .banner-opc-2, 
+    .banner-opc-3{
+        gap: 20px;
+  
+    }
+    .banner-options h3, .ban{
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .banner-options p{
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+    .image-news img, .news{
+        max-width: 390px;
+    }
+    .latestnews-direction{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+   .latestnews{
+        margin-top: 325px;
+       
+    }
+    .news{
+        margin-bottom: 20px;
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .container-departaments{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+        width: 100%;
+    }
+    .select-departaments{
+        width: 100vw;
+        height: 80px;
+        font-size: 20px;
+    }
+    .desc-contacts{
+        margin-bottom: 30px;
+        width: 90vw;
+        margin-left: 10px;
+    }
+    .desc-contacts h3,.desc-contacts a{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .banner-footer{
+        text-align: center;
+        height: 400px;
+        
+    }
+    .banner-footer h3{
+        font-size: 17px;
+
+    }
+    .banner-footer a{
+        font-size: 30px;
+
+    }
+    .footer-desc{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .info p, .info-local p, 
+    .info-contacts p, 
+    .info-email a,
+    .footer-links a,
+    .footer-latestnews a,
+    .desc-tweets p,
+    .footer-privacy-links a{
+        width: 90vw;
+        font-size: 17px;
+    
+    }
+    .footer-desc-info{
+        width: 400px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .footer-privacy{ 
+        height: 200px;
+        padding: 20px; 
+        width: 100%;  
+    }
+    .footer-privacy .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    .footer-privacy-links a{  
+        font-size: 20px;
+    }
+    .footer-main .container{
+        width: 100%;
+    }
+}
+
+
+
+
+@media(max-width: 375px){
+
+
+    .latestnews{
+         margin-top: 170px;
+         
+     }
+     .banner-options h3, .ban{
+        font-size: 17px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .banner-options p{
+        font-size: 14px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+ 
+ }
+ @media(max-width: 320px){
+
+
+    .latestnews{
+         margin-top: 280px;
+         
+     }
+     .banner-options h3, .ban{
+        font-size: 17px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .banner-options p{
+        font-size: 14px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+ }

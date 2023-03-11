@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Medicenter</title>
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menu-mobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }else{
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+     <header>
+        <div class="container">
+            <div class="menu-mobile-header">
+                <div class="logo">
+                    <a href="#"><img src="./assets/images/logo.png"></a>
+                </div>
+                <div href="" class="menu-mobile">
+                    <div class="mm-bar"></div>
+                    <div class="mm-bar"></div>
+                    <div class="mm-bar"></div>
+                </div>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#" class="activo">principal</li></a>
+                        <li><a href="#">paginas</li></a>
+                        <li><a href="#">blog</li></a>
+                        <li><a href="#">departamentos</li></a>
+                        <li><a href="#">galeria</li></a>
+                        <li><a href="#">contatos</li></a>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+     </header>
+     <section id="banner">
+        <div class="container direction">
+            <div class="banner-headline">
+                <h1>Experiencia de alto nivel</h1>
+                <h2>Medicenter e modelo responsivo, perfeito para todos os tamanhos de tela</h2>
+            </div>
+            <div class="banner-options">
+                <div class="banner-opc-1">
+                    <h3>Casos de emergencia</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    </p>
+                    <button class="button-more">Saiba mais</button>
+                </div>
+                <div class="banner-opc-2">
+                    <h3>Horario dos Medicos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    </p>
+                    <button class="button-more">Saiba mais</button>
+                </div>
+                <div class="banner-opc-3 ">
+                    <h3>Horario de funcionamento</h3>
+                    <div class="hours">
+                        <h6>Segund - Sexta</h6>
+                        <h6>8.00-17.00</h6>
+                    </div>
+                    <div class="hours">
+                        <h6>Sabado</h6>
+                        <h6>9.00-17.30</h6>
+                    </div>
+                    <div class="hours">
+                        <h6>Domingo</h6>
+                        <h6>9.30-15.00</h6>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+     </section>
+     <section id="latestnews_departaments">
+        <div class="container latestnews-direction">
+            <section class="latestnews">
+                <div class="desc-tittle">
+                    Utimas noticias</div>
+                <div class="desc-bar"></div>
+                <section class="container-news">
+                    <a href="page-news-id='' ">
+                        <article class="area-news">
+                            <div class="date-news">
+                                <div class="month-news">12 DEC 12</div>
+                                <div class="day-news">2</div>
+                            </div>
+                            <figure class="image-news">
+                                <img src="./assets/images/dr01.png">
+                                <figcaption class="desc-image">Centro Odontologico</figcaption>
+                            </figure>
+                            <p class="news">          
+                                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos.
+                                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos.
+                            </p>    
+                        </article>
+                    </a>
+                    <a href="page-news-id='' ">
+                        <article class="area-news">
+                            <div class="date-news">
+                                <div class="month-news">12 DEC 12</div>
+                                <div class="day-news">2</div>
+                            </div>
+                            <figure class="image-news">
+                                <img src="./assets/images/dr02.png">
+                                <figcaption class="desc-image">Centro de Pediatria</figcaption>
+                            </figure>
+                            <p class="news">
+                                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos.
+                            </p>
+                        </article>
+                    </a>
+                    <a href="page-news-id='' ">
+                        <article class="area-news">
+                            <div class="date-news">
+                                <div class="month-news">12 DEC 12</div>
+                                <div class="day-news">2</div>
+                            </div>
+                            <figure class="image-news">
+                                <img src="./assets/images/dr03.png">
+                                <figcaption class="desc-image">Laboratorio Especializado</figcaption>
+                            </figure>
+                            <p class="news">
+                                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos.
+                                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos.
+                            </p>    
+                        </article>
+                    </a>
+                    <a href="page-news-id='' ">
+                        <article class="area-news">
+                            <div class="date-news">
+                                <div class="month-news">12 DEC 12</div>
+                                <div class="day-news">2</div>
+                            </div>
+                            <figure class="image-news">
+                                <img src="./assets/images/dr04.png">
+                                <figcaption class="desc-image">Profissionais da Medicina</figcaption>
+                            </figure>
+                            <p class="news">
+                                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos.
+                            </p>    
+                        </article>
+                    </a>
+                </section>
+            </section>
+            <aside class="departaments">
+                <div class="desc-tittle">
+                    Departamentos</div>
+                <div class="desc-bar"></div>
+
+                <section class="container-departaments">
+                    <a href="select-page-id=''"><div class="select-departaments">exames</div></a>
+                    <a href="select-page-id=''"><div class="select-departaments">pediatria</div></a>
+                    <a href="select-page-id=''"><div class="select-departaments">consutas</div></a>
+                    <a href="select-page-id=''"><div class="select-departaments">dentista</div></a>
+                    <a href="select-page-id=''"><div class="select-departaments">profissionais</div></a>
+                    <a href="select-page-id=''"><div class="select-departaments">saiba mais</div></a>
+                </section>
+            
+                <section class="departaments-contacts">
+                    <div class="desc-tittle">
+                        Marcar Horario
+                    </div>
+                    <div class="desc-bar"></div>
+
+                    <p>Para mais informaçoes acesse nosso portal de relacionamento, todos os dias</p>
+                    <br>
+                    <br>
+                    <div class="desc-contacts">
+                        <div class="contacts">
+                            <h3 id="email">Email:</h3>
+                            <a href="#">jairo.oliveir22@gmail.com</a>
+                        </div>
+                        <div class="contacts">
+                            <h3 id="tel">Tel:</h3>
+                            <a href="#">55 015 99739-2889</a>
+                        </div>
+                        <div class="contacts">
+                            <h3 id="site">Site:</h3>
+                            <a href="#">www.jairomatos@development.com.br</a>
+                        </div> 
+                    </div>
+                </section>
+            </aside>
+        </div>
+     </section>
+
+     <footer id="footer">
+        <section class="footer-main">
+            <div class="container ">
+                <div class="banner-options banner-footer">
+                    <div class="banner-opc-1 footer-opc">
+                        <h3>Encontre uma clinica perto de voce</h3>
+                        <a href="#">Encontre-nos no Mapa</a>
+                    </div>
+                    <div class="banner-opc-2 footer-opc">
+                        <h3>Agende uma consulta</h3>
+                        <a href="#">55 15 99739-2889</a>
+                    </div>
+                    <div class="banner-opc-3 footer-opc">
+                        <h3>Envie nos uma mensagem!</h3>
+                        <a href="#">Enviar menssagem</a>   
+                    </div> 
+                </div>
+            </div>
+            <div class="footer-desc">
+                <div class="footer-desc-info">
+                    <div class="desc-tittle">
+                        Sobre Nos
+                    </div>
+                    <div class="desc-bar"></div>
+                    <div class="info">
+                        <p>No MediCenterNo MediCenter, pretendemos criar medicamentos,
+                            que melhorem a qualidade e a duração da vida dos pacientes.
+                        </p>
+                        <br><br>
+                    </div>
+                    <div class="info-local">
+                        <p>160 Sorocaba</p>
+                        <p>Sao Paulo</p>
+                        <br><br>
+                    </div>
+                    <div class="info-contacts">
+                        <p>55 15 99739-2889</p>
+                        <p>55 15 99739-2889</p>
+                        <br>
+                    </div>
+                    
+                    <div class="info-email">
+                        <a href="#">jairo.oliveira22@gmail.com</a>
+                        <br><br>
+                    </div>
+                    
+                </div>
+                <div class="footer-desc-info">
+                    <div class="desc-tittle">
+                        Links adicionais
+                    </div>
+                    <div class="desc-bar"></div>
+                    <div class="footer-links">
+                        <a href="#">Profissionais de medicina</a>
+                        <br><br>
+                        <a href="#">Ultimas noticias</a>
+                        <br><br>
+                        <a href="#">Parceiros e fornecedores</a>
+                        <br><br>
+                        <a href="#">Premios indacoes</a>
+                        <br><br>
+                        
+                    </div>
+                </div>
+                <div class="footer-desc-info">
+                    <div class="desc-tittle">
+                        Ultimas postagens
+                    </div>
+                    <div class="desc-bar"></div>
+                    <div class="footer-latestnews">
+                        <a href="#">Laboratorio Clinico</a>
+                        <br><br>
+                        <a href="#">Clinica Odontologica</a>
+                        <br><br>
+                        <a href="#">Equipes</a>
+                        <br><br>
+                        <a href="#">Clinica Pediatrica</a>
+                        <br><br>
+                    </div>
+                </div>   
+                <div class="footer-desc-info">
+                    <div class="desc-tittle">
+                        Ultimos tweets
+                    </div>
+                    <div class="desc-bar"></div>
+                    <div class="desc-tweets">
+                        <p>Ultimos Tweets
+                            Ultimos Tweets, Lançamos uma nova versão (v1.1) do nosso #Horário #Responsivo #Reserva #Agenda #WP Plugin. Verifique em… www Lançamos uma nova versão (v6.9) do nosso #Horário #Responsivo #Reserva #Agenda #WP Plugin. Verifique em… t.co/KlzG7OsrVE 9 DE DEZEMBRO DE 2021
+                        </p>
+                    </div>
+                </div> 
+            </div>
+            
+        </section>
+        <section class="footer-privacy">
+        
+            <div class="container">
+                <div class="footer-direitos">
+                    <p>© 2022 <span>Jairo Oliveira Matos</span> desenvolvimentos - todos direitos reservados.
+                    </p>
+                </div>
+                <div class="footer-privacy-links">
+                    <a href="">Privacy</a>
+                    <a href="">Terms</a>
+                    <a href="">Sitemap</a>
+                </div>
+            
+            </div>
+         </section>
+     </footer>
+     
+</body>
+</html>
