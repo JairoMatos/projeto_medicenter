@@ -382,8 +382,12 @@ nav a{
     .logo{
        margin-left: 20px;
     }
+    .logo img{
+        width: 250px;
+    }
     header{
         height: auto;
+        margin-top: 20px;
     }
     header .container{
         flex-direction: column;
@@ -456,14 +460,23 @@ nav a{
     .image-news img, .news{
         max-width: 390px;
     }
+    .desc-tittle {
+        padding-left: 5px;
+    }
+    .desc-bar{
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
+   
     .latestnews-direction{
         display: flex;
         flex-direction: column;
-        margin-left: 30px;
+        
     }
    .latestnews{
-        margin-top: 325px;
-       
+        margin-top: 336px;
+        width: 414px;
+        padding-left: 10px;
     }
     .news{
         margin-bottom: 20px;
@@ -476,6 +489,10 @@ nav a{
         align-items: center;
         gap: 7px;
         width: 100%;
+        
+    }
+    .departaments-contacts p{
+        margin-left: 10px;
     }
     .select-departaments{
         width: 100vw;
@@ -491,9 +508,14 @@ nav a{
         font-size: 16px;
         font-weight: bold;
     }
+    .footer-main{
+        width: 100%;
+        
+    }
     .banner-footer{
         text-align: center;
-        height: 400px;
+        height: 330px;
+     
         
     }
     .banner-footer h3{
