@@ -437,6 +437,7 @@ nav a{
         width: 100vw;
     }
     .button-more{
+        margin: auto;
         width: 85vw;
         font-size: 20px;
     }
@@ -476,7 +477,8 @@ nav a{
    .latestnews{
         margin-top: 336px;
         width: 414px;
-        padding-left: 10px;
+
+        padding-left: 20px;
     }
     .news{
         margin-bottom: 20px;
@@ -491,8 +493,14 @@ nav a{
         width: 100%;
         
     }
+    .departaments .desc-tittle {
+        padding-left: 20px;
+    }
+    .departaments .desc-bar{
+        margin-left: 20px;
+    }
     .departaments-contacts p{
-        margin-left: 10px;
+        margin-left: 20px;
     }
     .select-departaments{
         width: 100vw;
@@ -502,34 +510,41 @@ nav a{
     .desc-contacts{
         margin-bottom: 30px;
         width: 90vw;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     .desc-contacts h3,.desc-contacts a{
-        font-size: 16px;
+        font-size: 15px;
         font-weight: bold;
     }
     .footer-main{
-        width: 100%;
-        
+        width: 100%; 
     }
     .banner-footer{
         text-align: center;
-        height: 330px;
-     
-        
+        height: 330px;  
     }
     .banner-footer h3{
         font-size: 17px;
-
     }
     .banner-footer a{
         font-size: 30px;
-
     }
     .footer-desc{
         flex-direction: column;
-        align-items: center;
-        
+        align-items: center;  
+    }
+    .footer-desc p, .footer-desc a{
+        padding-left: 15px;
+    }
+    .footer-desc .desc-tittle, .departaments-contacts {
+        padding-left: 8px;
+    }
+    .footer-desc .desc-bar{
+        margin-left: 8px;
+        margin-bottom: 20px;
+    }
+    .footer-desc a::after{
+        margin-left: 10px;
     }
     .info p, .info-local p, 
     .info-contacts p, 
