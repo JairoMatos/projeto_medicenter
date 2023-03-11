@@ -462,10 +462,10 @@ nav a{
         max-width: 390px;
     }
     .desc-tittle {
-        padding-left: 5px;
+        padding-left: 20px;
     }
     .desc-bar{
-        margin-left: 5px;
+        margin-left: 20px;
         margin-bottom: 20px;
     }
    
@@ -477,13 +477,21 @@ nav a{
    .latestnews{
         margin-top: 336px;
         width: 414px;
-
-        padding-left: 20px;
     }
     .news{
         margin-bottom: 20px;
         font-size: 17px;
         line-height: 24px;
+    }
+    .area-news{
+        width: 100vw;
+        padding: 15px;
+    }
+    .area-news p{
+        text-align: justify;
+    }
+    .area-news img{
+        align-items: center;
     }
     .container-departaments{
         display: flex;
@@ -493,12 +501,7 @@ nav a{
         width: 100%;
         
     }
-    .departaments .desc-tittle {
-        padding-left: 20px;
-    }
-    .departaments .desc-bar{
-        margin-left: 20px;
-    }
+ 
     .departaments-contacts p{
         margin-left: 20px;
     }
@@ -534,14 +537,10 @@ nav a{
         align-items: center;  
     }
     .footer-desc p, .footer-desc a{
-        padding-left: 15px;
+        padding-left: 12px;
     }
-    .footer-desc .desc-tittle, .departaments-contacts {
+    .departaments-contacts {
         padding-left: 8px;
-    }
-    .footer-desc .desc-bar{
-        margin-left: 8px;
-        margin-bottom: 20px;
     }
     .footer-desc a::after{
         margin-left: 10px;
@@ -562,6 +561,12 @@ nav a{
         margin-left: 20px;
         margin-bottom: 10px;
     }
+    .footer-desc-info .desc-tittle{
+       margin-left: -10px;
+    }
+    .footer-desc-info .desc-bar{
+        margin-left: 10px;
+     }
     .footer-privacy{ 
         height: 200px;
         padding: 20px; 
