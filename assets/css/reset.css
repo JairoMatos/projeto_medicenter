@@ -12,3 +12,6 @@ ul{
     text-transform: none;
     list-style: none;
 }
+html{
+    -webkit-tap-highlight-color: transparent;
+}
