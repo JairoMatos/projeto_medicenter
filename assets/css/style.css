@@ -20,19 +20,29 @@ header{
 .menu-mobile-header{
     display: flex;
 }
-.menu-mobile{
+
+.menu-mobile {
     width: 40px;
     height: 40px;
+    background: none;
+    border: none;
     display: none;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     cursor: pointer;
+    transition: all 0.3s; 
 }
-.mm-bar{
-    width: 100%;
-    height: 3px;
-    background-color: rgb(18, 123, 196);
+.menu-mobile:active{
+    transform: rotate(180deg);
+}
+
+
+.menu-mobile #open{
+    display: block;
+}
+.menu-mobile #close{
+    display: none;
 }
 
 nav ul{
@@ -191,7 +201,7 @@ nav a{
     font-size: 13px;
 }
 .image-news img, .news{
-    max-width: 300px;
+    width: 300px;
 }
 .desc-image{
     font-weight: lighter;
@@ -329,8 +339,6 @@ nav a{
 }
 .footer-desc-info .desc-tittle{
     color: rgb(225, 225, 225);
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
 }
 
 .info p, .info-local p, 
@@ -441,25 +449,23 @@ nav a{
         width: 85vw;
         font-size: 20px;
     }
-    .banner-opc-1,
-    .banner-opc-2, 
-    .banner-opc-3{
-        gap: 20px;
-  
+    .button-more{
+        margin-top: 20px;
     }
-    .banner-options h3, .ban{
-        font-size: 25px;
+    .banner-options h3{
+        font-size: 22px;
         text-align: center;
         font-weight: bold;
+        margin-bottom: 27px
     }
     .banner-options p{
         font-size: 20px;
         text-align: center;
         color: white;
-        font-weight: bold;
+       
     }
     .image-news img, .news{
-        max-width: 390px;
+        width: 100%;
     }
     .desc-tittle {
         padding-left: 20px;
@@ -472,11 +478,10 @@ nav a{
     .latestnews-direction{
         display: flex;
         flex-direction: column;
-        
+        width: 100%;
     }
-   .latestnews{
-        margin-top: 336px;
-        width: 414px;
+    #latestnews_departaments{
+        margin-top: 320px
     }
     .news{
         margin-bottom: 20px;
@@ -485,25 +490,23 @@ nav a{
     }
     .area-news{
         width: 100vw;
-        padding: 15px;
+        padding: 20px;
+       
     }
     .area-news p{
         text-align: justify;
     }
-    .area-news img{
-        align-items: center;
-    }
+
     .container-departaments{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 7px;
-        width: 100%;
-        
+        width: 100%;       
     }
- 
     .departaments-contacts p{
         margin-left: 20px;
+        padding-left: 8px;
     }
     .select-departaments{
         width: 100vw;
@@ -533,15 +536,12 @@ nav a{
         font-size: 30px;
     }
     .footer-desc{
+        margin-top: 60px;
         flex-direction: column;
-        align-items: center;  
     }
     .footer-desc p, .footer-desc a{
         padding-left: 12px;
-    }
-    .departaments-contacts {
-        padding-left: 8px;
-    }
+    }  
     .footer-desc a::after{
         margin-left: 10px;
     }
@@ -554,10 +554,8 @@ nav a{
     .footer-privacy-links a{
         width: 90vw;
         font-size: 17px;
-    
     }
-    .footer-desc-info{
-        width: 400px;
+    .footer-desc-info{  
         margin-left: 20px;
         margin-bottom: 10px;
     }
@@ -580,52 +578,9 @@ nav a{
         gap: 30px;
     }
     .footer-privacy-links a{  
-        font-size: 20px;
+        font-size: 17px;
     }
     .footer-main .container{
         width: 100%;
     }
 }
-
-
-
-
-@media(max-width: 375px){
-
-
-    .latestnews{
-         margin-top: 170px;
-         
-     }
-     .banner-options h3, .ban{
-        font-size: 17px;
-        text-align: center;
-        font-weight: bold;
-    }
-    .banner-options p{
-        font-size: 14px;
-        text-align: center;
-        color: white;
-        font-weight: bold;
-    }
- 
- }
- @media(max-width: 320px){
-
-
-    .latestnews{
-         margin-top: 280px;
-         
-     }
-     .banner-options h3, .ban{
-        font-size: 17px;
-        text-align: center;
-        font-weight: bold;
-    }
-    .banner-options p{
-        font-size: 14px;
-        text-align: center;
-        color: white;
-        font-weight: bold;
-    }
- }

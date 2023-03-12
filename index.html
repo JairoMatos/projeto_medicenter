@@ -12,8 +12,15 @@
             document.querySelector(".menu-mobile").addEventListener("click", function(){
                 if(document.querySelector(".menu nav ul").style.display == 'flex'){
                     document.querySelector(".menu nav ul").style.display = 'none';
+
+                    document.querySelector(".menu-mobile #close").style.display = 'none';
+                    document.querySelector(".menu-mobile #open").style.display = 'block';
+
                 }else{
                     document.querySelector(".menu nav ul").style.display = 'flex';
+
+                    document.querySelector(".menu-mobile #close").style.display = 'block';
+                    document.querySelector(".menu-mobile #open").style.display = 'none';
                 }
             });
         };
@@ -26,11 +33,13 @@
                 <div class="logo">
                     <a href="#"><img src="./assets/images/logo.png"></a>
                 </div>
-                <div href="" class="menu-mobile">
-                    <div class="mm-bar"></div>
-                    <div class="mm-bar"></div>
-                    <div class="mm-bar"></div>
-                </div>
+                
+                <button href="" class="menu-mobile open-box-menu">
+                    <img id="open" src="./assets/images/menu.svg" alt="">
+
+                    <img id="close" src="./assets/images/close-box-outline.svg" alt="">
+                </button>
+                
             </div>
             <div class="menu">
                 <nav>
@@ -69,22 +78,22 @@
                 <div class="banner-opc-3 ">
                     <h3>Horario de funcionamento</h3>
                     <div class="hours">
-                        <h6>Segund - Sexta</h6>
-                        <h6>8.00-17.00</h6>
+                        <p>Segund - Sexta</p>
+                        <p>8.00-17.00</p>
                     </div>
                     <div class="hours">
-                        <h6>Sabado</h6>
-                        <h6>9.00-17.30</h6>
+                        <p>Sabado</p>
+                        <p>9.00-17.30</p>
                     </div>
                     <div class="hours">
-                        <h6>Domingo</h6>
-                        <h6>9.30-15.00</h6>
+                        <p>Domingo</p>
+                        <p>9.30-15.00</p>
                     </div>
                 </div>
-                
             </div>
         </div>
      </section>
+    
      <section id="latestnews_departaments">
         <div class="container latestnews-direction">
             <section class="latestnews">
